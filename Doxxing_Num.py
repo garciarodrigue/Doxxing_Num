@@ -21,7 +21,7 @@ print(YELLOW+"escribe el numero de telefono junto\ncon el codigo de pais, ejempl
 api_key = 'b55cc727b39065ab10c752064013930a'
 number = int(input(RED+"Numero: "+RESET))
 
-data = requests.get("http://apilayer.net/api/validate?access_key=%s&number=%s&country_code&format=1" % (api_key, number))
+data = requests.get("http://apilayer.net/api/validate?access_key=MYXD12sKk61p05hh17pnH4lHSq2ZrIxL%s&number=%s&country_code&format=1" % (api_key, number))
 
 for key, value in data.json().items():
 
